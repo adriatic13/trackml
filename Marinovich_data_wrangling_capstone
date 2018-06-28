@@ -1,0 +1,10 @@
+Adrian Marinovich
+Data Wrangling for TrackML Capstone Project 
+
+In general, the data provided for this competition are quite clean, and most of the data wrangling I've performed involves the alignment of the data with the needs of the algorithms, alignment of the subsequent results with a preliminary scoring algorithm, and ultimately the creation of a large submission datasets according to specific standards so that they can be scored on Kaggle, all while pipelining data to not overload the memory constraints of the computing resources I have available. 
+
+As part of this data wrangling for this project, I have incorporated code provided by the competition organizers that loads and defines data from the multiple datasets available on the Kaggle website (dataset.py, https://github.com/LAL/trackml-library.git), as well as code they provide for preliminary scoring of subsets from my algorithms (score.py, https://github.com/LAL/trackml-library.git). 
+
+I also modified code provided by the organizers (https://www.kaggle.com/mikhailhushchyn/hough-transform) in order to create a manual data pipeline for applying the algorithm to multiple data subsets that are too large to all be made available togetherat one time. 
+
+I have made available one subset of a submission dataset, since a full set is to large to be downloaded to github: Marinovich_submission1.csv
